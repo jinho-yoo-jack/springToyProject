@@ -16,6 +16,7 @@ public class TicketOffice {
         return tickets.get(0);
     }
 
+
     public void minusAmount(long amount) {
         this.amount -= amount;
     }
